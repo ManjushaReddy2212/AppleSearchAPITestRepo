@@ -163,24 +163,23 @@ public class AppleSearchAPIAutomation {
         int resultCount = path.getInt("resultCount");         
         Assert.assertEquals(resultCount, 0, "No search results should be found for the term:InvalidText ");
         List<String> list = path.get("results");
-        Assert.assertEquals(list.size(), 0, "Results returned are invalid"); 
-        
+        Assert.assertEquals(list.size(), 0, "Results returned are invalid");        
         
     }
     
     @DataProvider(name = "countryAndPricePoints")
     public Object[][] getCountryAndPricePoints() {
         return new Object[][] { 
-            { "IN", "INR" }, 
-            { "US", "USD" }, 
-            { "CA", "CAD" }, 
-            { "GB", "GBP" },
-            { "JP", "JPY" }, 
+            { "IN", "INR", "IND" }, 
+            { "US", "USD", "USA" }, 
+            { "CA", "CAD", "CAN" }, 
+            { "GB", "GBP", "GBR" },
+            { "JP", "JPY", "JPN" }, 
         };
     }
 
     @Test(testName ="Case4", description = "Verify valid currency is displayed for the respective country field", dataProvider = "countryAndPricePoints")
-    public void testPricePointsAndCountryForAPI(String country, String currency) {
+    public void testPricePointsAndCountryForAPI(String country, String currency, String countryCode) {
      
         RestAssured.baseURI = Constants.URI_DOMAIN;
         String response = given().log().all().queryParam("term", "Jim jones").queryParam("country", country ).queryParam("limit", 1).when().get(Constants.API).then()
@@ -194,23 +193,23 @@ public class AppleSearchAPIAutomation {
         case "IN":  
             //Replace all is used here as response returned is enclosed in square braces [] 
             Assert.assertEquals(path.getString("results.currency").replaceAll("[\\[\\]]",""), currency , "Currency is invalid");   
-            Assert.assertEquals(path.getString("results.country").replaceAll("[\\[\\]]",""), "IND", "Country is Invalid");
+            Assert.assertEquals(path.getString("results.country").replaceAll("[\\[\\]]",""), countryCode, "Country is Invalid");
             break;
         case "US":
             Assert.assertEquals(path.getString("results.currency").replaceAll("[\\[\\]]",""), currency , "Currency is invalid"); 
-            Assert.assertEquals(path.getString("results.country").replaceAll("[\\[\\]]",""), "USA", "Country is Invalid");               
+            Assert.assertEquals(path.getString("results.country").replaceAll("[\\[\\]]",""), countryCode, "Country is Invalid");               
             break;
         case "CA":
             Assert.assertEquals(path.getString("results.currency").replaceAll("[\\[\\]]",""), currency , "Currency is invalid"); 
-            Assert.assertEquals(path.getString("results.country").replaceAll("[\\[\\]]",""), "CAN", "Country is Invalid");                 
+            Assert.assertEquals(path.getString("results.country").replaceAll("[\\[\\]]",""), countryCode, "Country is Invalid");                 
             break;
         case "GB":
             Assert.assertEquals(path.getString("results.currency").replaceAll("[\\[\\]]",""), currency , "Currency is invalid");  
-            Assert.assertEquals(path.getString("results.country").replaceAll("[\\[\\]]",""), "GBR", "Country is Invalid");               
+            Assert.assertEquals(path.getString("results.country").replaceAll("[\\[\\]]",""), countryCode, "Country is Invalid");               
             break;  
         case "JP":
             Assert.assertEquals(path.getString("results.currency").replaceAll("[\\[\\](){}]",""), currency , "Currency is invalid");   
-            Assert.assertEquals(path.getString("results.country").replaceAll("[\\[\\](){}]",""), "JPN", "Country is Invalid");   
+            Assert.assertEquals(path.getString("results.country").replaceAll("[\\[\\](){}]",""), countryCode, "Country is Invalid");   
             break;             
         default:
             throw new IllegalArgumentException("Invalid country ");

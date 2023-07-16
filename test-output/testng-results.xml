@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="23" passed="23">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11526" started-at="2023-07-16T04:54:40 IST" finished-at="2023-07-16T04:54:52 IST">
+  <suite name="Default suite" duration-ms="13195" started-at="2023-07-16T07:59:26 IST" finished-at="2023-07-16T07:59:39 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11526" started-at="2023-07-16T04:54:40 IST" finished-at="2023-07-16T04:54:52 IST">
+    <test name="Default test" duration-ms="13195" started-at="2023-07-16T07:59:26 IST" finished-at="2023-07-16T07:59:39 IST">
       <class name="AppleSearchAPIAutomation">
-        <test-method status="PASS" signature="setup()[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="setup" is-config="true" duration-ms="409" started-at="2023-07-16T04:54:40 IST" finished-at="2023-07-16T04:54:41 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="setup" is-config="true" duration-ms="516" started-at="2023-07-16T07:59:26 IST" finished-at="2023-07-16T07:59:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="searchByTermAndMediaType" duration-ms="1997" started-at="2023-07-16T04:54:41 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T04:54:43 IST">
+        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="searchByTermAndMediaType" duration-ms="2189" started-at="2023-07-16T07:59:26 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T07:59:29 IST">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByTermAndMediaType -->
-        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="searchByTermAndMediaType" duration-ms="248" started-at="2023-07-16T04:54:43 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T04:54:43 IST">
+        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="searchByTermAndMediaType" duration-ms="215" started-at="2023-07-16T07:59:29 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T07:59:29 IST">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByTermAndMediaType -->
-        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="searchByTermAndMediaType" duration-ms="576" started-at="2023-07-16T04:54:43 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T04:54:43 IST">
+        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="searchByTermAndMediaType" duration-ms="547" started-at="2023-07-16T07:59:29 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T07:59:29 IST">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByTermAndMediaType -->
-        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="searchByTermAndMediaType" duration-ms="330" started-at="2023-07-16T04:54:43 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T04:54:44 IST">
+        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="searchByTermAndMediaType" duration-ms="320" started-at="2023-07-16T07:59:29 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T07:59:30 IST">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByTermAndMediaType -->
-        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="searchByTermAndMediaType" duration-ms="502" started-at="2023-07-16T04:54:44 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T04:54:44 IST">
+        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="searchByTermAndMediaType" duration-ms="528" started-at="2023-07-16T07:59:30 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T07:59:30 IST">
           <params>
             <param index="0">
               <value>
@@ -91,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByTermAndMediaType -->
-        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="searchByTermAndMediaType" duration-ms="488" started-at="2023-07-16T04:54:44 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T04:54:45 IST">
+        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="searchByTermAndMediaType" duration-ms="504" started-at="2023-07-16T07:59:30 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T07:59:31 IST">
           <params>
             <param index="0">
               <value>
@@ -107,7 +107,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByTermAndMediaType -->
-        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="searchByTermAndMediaType" duration-ms="676" started-at="2023-07-16T04:54:45 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T04:54:45 IST">
+        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="searchByTermAndMediaType" duration-ms="692" started-at="2023-07-16T07:59:31 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T07:59:31 IST">
           <params>
             <param index="0">
               <value>
@@ -123,7 +123,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByTermAndMediaType -->
-        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="searchByTermAndMediaType" duration-ms="517" started-at="2023-07-16T04:54:45 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T04:54:46 IST">
+        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="searchByTermAndMediaType" duration-ms="496" started-at="2023-07-16T07:59:31 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T07:59:32 IST">
           <params>
             <param index="0">
               <value>
@@ -139,7 +139,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByTermAndMediaType -->
-        <test-method status="PASS" signature="testPricePointsAndCountryForAPI(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="testPricePointsAndCountryForAPI" duration-ms="201" started-at="2023-07-16T04:54:46 IST" description="Verify valid currency is displayed for the respective country field" data-provider="countryAndPricePoints" finished-at="2023-07-16T04:54:46 IST">
+        <test-method status="PASS" signature="testPricePointsAndCountryForAPI(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="testPricePointsAndCountryForAPI" duration-ms="209" started-at="2023-07-16T07:59:32 IST" description="Verify valid currency is displayed for the respective country field" data-provider="countryAndPricePoints" finished-at="2023-07-16T07:59:32 IST">
           <params>
             <param index="0">
               <value>
@@ -151,11 +151,16 @@
                 <![CDATA[INR]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[IND]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPricePointsAndCountryForAPI -->
-        <test-method status="PASS" signature="testPricePointsAndCountryForAPI(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="testPricePointsAndCountryForAPI" duration-ms="139" started-at="2023-07-16T04:54:46 IST" description="Verify valid currency is displayed for the respective country field" data-provider="countryAndPricePoints" finished-at="2023-07-16T04:54:46 IST">
+        <test-method status="PASS" signature="testPricePointsAndCountryForAPI(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="testPricePointsAndCountryForAPI" duration-ms="155" started-at="2023-07-16T07:59:32 IST" description="Verify valid currency is displayed for the respective country field" data-provider="countryAndPricePoints" finished-at="2023-07-16T07:59:32 IST">
           <params>
             <param index="0">
               <value>
@@ -167,11 +172,16 @@
                 <![CDATA[USD]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPricePointsAndCountryForAPI -->
-        <test-method status="PASS" signature="testPricePointsAndCountryForAPI(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="testPricePointsAndCountryForAPI" duration-ms="156" started-at="2023-07-16T04:54:46 IST" description="Verify valid currency is displayed for the respective country field" data-provider="countryAndPricePoints" finished-at="2023-07-16T04:54:46 IST">
+        <test-method status="PASS" signature="testPricePointsAndCountryForAPI(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="testPricePointsAndCountryForAPI" duration-ms="151" started-at="2023-07-16T07:59:32 IST" description="Verify valid currency is displayed for the respective country field" data-provider="countryAndPricePoints" finished-at="2023-07-16T07:59:32 IST">
           <params>
             <param index="0">
               <value>
@@ -183,11 +193,16 @@
                 <![CDATA[CAD]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[CAN]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPricePointsAndCountryForAPI -->
-        <test-method status="PASS" signature="testPricePointsAndCountryForAPI(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="testPricePointsAndCountryForAPI" duration-ms="139" started-at="2023-07-16T04:54:46 IST" description="Verify valid currency is displayed for the respective country field" data-provider="countryAndPricePoints" finished-at="2023-07-16T04:54:47 IST">
+        <test-method status="PASS" signature="testPricePointsAndCountryForAPI(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="testPricePointsAndCountryForAPI" duration-ms="145" started-at="2023-07-16T07:59:32 IST" description="Verify valid currency is displayed for the respective country field" data-provider="countryAndPricePoints" finished-at="2023-07-16T07:59:33 IST">
           <params>
             <param index="0">
               <value>
@@ -199,11 +214,16 @@
                 <![CDATA[GBP]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[GBR]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPricePointsAndCountryForAPI -->
-        <test-method status="PASS" signature="testPricePointsAndCountryForAPI(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="testPricePointsAndCountryForAPI" duration-ms="148" started-at="2023-07-16T04:54:47 IST" description="Verify valid currency is displayed for the respective country field" data-provider="countryAndPricePoints" finished-at="2023-07-16T04:54:47 IST">
+        <test-method status="PASS" signature="testPricePointsAndCountryForAPI(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="testPricePointsAndCountryForAPI" duration-ms="135" started-at="2023-07-16T07:59:33 IST" description="Verify valid currency is displayed for the respective country field" data-provider="countryAndPricePoints" finished-at="2023-07-16T07:59:33 IST">
           <params>
             <param index="0">
               <value>
@@ -215,19 +235,24 @@
                 <![CDATA[JPY]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[JPN]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPricePointsAndCountryForAPI -->
-        <test-method status="PASS" signature="testResponseForInvalidText()[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="testResponseForInvalidText" duration-ms="191" started-at="2023-07-16T04:54:47 IST" description="Validate invalid text search gives zero results" finished-at="2023-07-16T04:54:47 IST">
+        <test-method status="PASS" signature="testResponseForInvalidText()[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="testResponseForInvalidText" duration-ms="149" started-at="2023-07-16T07:59:33 IST" description="Validate invalid text search gives zero results" finished-at="2023-07-16T07:59:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResponseForInvalidText -->
-        <test-method status="PASS" signature="testStatusCodesForApI()[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="testStatusCodesForApI" duration-ms="1232" started-at="2023-07-16T04:54:47 IST" description="Verify various status codes" finished-at="2023-07-16T04:54:48 IST">
+        <test-method status="PASS" signature="testStatusCodesForApI()[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="testStatusCodesForApI" duration-ms="3709" started-at="2023-07-16T07:59:33 IST" description="Verify various status codes" finished-at="2023-07-16T07:59:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStatusCodesForApI -->
-        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="validateLimit" duration-ms="299" started-at="2023-07-16T04:54:48 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T04:54:48 IST">
+        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="validateLimit" duration-ms="366" started-at="2023-07-16T07:59:37 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T07:59:37 IST">
           <params>
             <param index="0">
               <value>
@@ -243,7 +268,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLimit -->
-        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="validateLimit" duration-ms="292" started-at="2023-07-16T04:54:48 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T04:54:49 IST">
+        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="validateLimit" duration-ms="283" started-at="2023-07-16T07:59:37 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T07:59:37 IST">
           <params>
             <param index="0">
               <value>
@@ -259,7 +284,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLimit -->
-        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="validateLimit" duration-ms="290" started-at="2023-07-16T04:54:49 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T04:54:49 IST">
+        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="validateLimit" duration-ms="297" started-at="2023-07-16T07:59:37 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T07:59:38 IST">
           <params>
             <param index="0">
               <value>
@@ -275,7 +300,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLimit -->
-        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="validateLimit" duration-ms="315" started-at="2023-07-16T04:54:49 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T04:54:49 IST">
+        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="validateLimit" duration-ms="275" started-at="2023-07-16T07:59:38 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T07:59:38 IST">
           <params>
             <param index="0">
               <value>
@@ -291,7 +316,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLimit -->
-        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="validateLimit" duration-ms="307" started-at="2023-07-16T04:54:49 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T04:54:50 IST">
+        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="validateLimit" duration-ms="298" started-at="2023-07-16T07:59:38 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T07:59:38 IST">
           <params>
             <param index="0">
               <value>
@@ -307,7 +332,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLimit -->
-        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="validateLimit" duration-ms="303" started-at="2023-07-16T04:54:50 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T04:54:50 IST">
+        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="validateLimit" duration-ms="270" started-at="2023-07-16T07:59:38 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T07:59:38 IST">
           <params>
             <param index="0">
               <value>
@@ -323,7 +348,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLimit -->
-        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="validateLimit" duration-ms="1429" started-at="2023-07-16T04:54:50 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T04:54:51 IST">
+        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="validateLimit" duration-ms="386" started-at="2023-07-16T07:59:38 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T07:59:39 IST">
           <params>
             <param index="0">
               <value>
@@ -339,7 +364,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLimit -->
-        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="validateLimit" duration-ms="286" started-at="2023-07-16T04:54:51 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T04:54:52 IST">
+        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@528931cf]" name="validateLimit" duration-ms="302" started-at="2023-07-16T07:59:39 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T07:59:39 IST">
           <params>
             <param index="0">
               <value>
