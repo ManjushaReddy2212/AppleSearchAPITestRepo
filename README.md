@@ -7,7 +7,7 @@ Test Execution Steps:
 3. Repo has 3 files
    AppleSearchAPIAutomation.java - which has 5 test cases to be executed,
    Constants.java - All reusable constants like Base url and api endpoint url's are stored here
-   ResponseItemValidator - Class to validate api response fields
+   ResponseItemValidator.java - Class to validate api response fields
 4. Run the tests in Eclipse using run as-> Test Ng file (or)
 5. Go to terminal -> change directory to local repository folder using command cd <folder path> -> Build project using command
    (mvn clean install -Dmaven.test.skip=true -U) -> If the build is sucessful run command (mvn test -Dtest=AppleSearchAPIAutomation) to      run tests
