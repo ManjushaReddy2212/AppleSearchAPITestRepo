@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="23" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AppleSearchAPIAutomation" duration-ms="10017" started-at="2023-07-16T08:13:32 IST" finished-at="2023-07-16T08:13:42 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="10017" started-at="2023-07-16T08:13:32 IST" finished-at="2023-07-16T08:13:42 IST">
+      <class name="AppleSearchAPIAutomation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="setup" is-config="true" duration-ms="373" started-at="2023-07-16T08:13:32 IST" finished-at="2023-07-16T08:13:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="searchByTermAndMediaType" duration-ms="1936" started-at="2023-07-16T08:13:32 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T08:13:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shreya Goshal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[music]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByTermAndMediaType -->
+        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="searchByTermAndMediaType" duration-ms="246" started-at="2023-07-16T08:13:34 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T08:13:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Baahubali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[movie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByTermAndMediaType -->
+        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="searchByTermAndMediaType" duration-ms="537" started-at="2023-07-16T08:13:34 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T08:13:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Podcast]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[podcast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByTermAndMediaType -->
+        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="searchByTermAndMediaType" duration-ms="278" started-at="2023-07-16T08:13:35 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T08:13:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Taylor Swift]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[musicVideo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByTermAndMediaType -->
+        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="searchByTermAndMediaType" duration-ms="514" started-at="2023-07-16T08:13:35 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T08:13:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Knowledge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[audiobook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByTermAndMediaType -->
+        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="searchByTermAndMediaType" duration-ms="474" started-at="2023-07-16T08:13:35 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T08:13:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Friends]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tvShow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByTermAndMediaType -->
+        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="searchByTermAndMediaType" duration-ms="572" started-at="2023-07-16T08:13:36 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T08:13:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Java]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[software]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByTermAndMediaType -->
+        <test-method status="PASS" signature="searchByTermAndMediaType(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="searchByTermAndMediaType" duration-ms="457" started-at="2023-07-16T08:13:37 IST" description="Verify valid entity type is retured for the given media type &amp;&amp; Validate key fields for the search results" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T08:13:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByTermAndMediaType -->
+        <test-method status="PASS" signature="testPricePointsAndCountryForAPI(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="testPricePointsAndCountryForAPI" duration-ms="219" started-at="2023-07-16T08:13:37 IST" description="Verify valid currency is displayed for the respective country field" data-provider="countryAndPricePoints" finished-at="2023-07-16T08:13:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IND]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPricePointsAndCountryForAPI -->
+        <test-method status="PASS" signature="testPricePointsAndCountryForAPI(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="testPricePointsAndCountryForAPI" duration-ms="153" started-at="2023-07-16T08:13:37 IST" description="Verify valid currency is displayed for the respective country field" data-provider="countryAndPricePoints" finished-at="2023-07-16T08:13:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPricePointsAndCountryForAPI -->
+        <test-method status="PASS" signature="testPricePointsAndCountryForAPI(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="testPricePointsAndCountryForAPI" duration-ms="147" started-at="2023-07-16T08:13:37 IST" description="Verify valid currency is displayed for the respective country field" data-provider="countryAndPricePoints" finished-at="2023-07-16T08:13:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CAD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CAN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPricePointsAndCountryForAPI -->
+        <test-method status="PASS" signature="testPricePointsAndCountryForAPI(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="testPricePointsAndCountryForAPI" duration-ms="150" started-at="2023-07-16T08:13:38 IST" description="Verify valid currency is displayed for the respective country field" data-provider="countryAndPricePoints" finished-at="2023-07-16T08:13:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GBP]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GBR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPricePointsAndCountryForAPI -->
+        <test-method status="PASS" signature="testPricePointsAndCountryForAPI(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="testPricePointsAndCountryForAPI" duration-ms="136" started-at="2023-07-16T08:13:38 IST" description="Verify valid currency is displayed for the respective country field" data-provider="countryAndPricePoints" finished-at="2023-07-16T08:13:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JPY]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[JPN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPricePointsAndCountryForAPI -->
+        <test-method status="PASS" signature="testResponseForInvalidText()[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="testResponseForInvalidText" duration-ms="137" started-at="2023-07-16T08:13:38 IST" description="Validate invalid text search gives zero results" finished-at="2023-07-16T08:13:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseForInvalidText -->
+        <test-method status="PASS" signature="testStatusCodesForApI()[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="testStatusCodesForApI" duration-ms="1145" started-at="2023-07-16T08:13:38 IST" description="Verify various status codes" finished-at="2023-07-16T08:13:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCodesForApI -->
+        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="validateLimit" duration-ms="302" started-at="2023-07-16T08:13:39 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T08:13:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shreya Goshal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[music]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLimit -->
+        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="validateLimit" duration-ms="300" started-at="2023-07-16T08:13:39 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T08:13:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Baahubali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[movie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLimit -->
+        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="validateLimit" duration-ms="300" started-at="2023-07-16T08:13:40 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T08:13:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Podcast]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[podcast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLimit -->
+        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="validateLimit" duration-ms="425" started-at="2023-07-16T08:13:40 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T08:13:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Taylor Swift]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[musicVideo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLimit -->
+        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="validateLimit" duration-ms="297" started-at="2023-07-16T08:13:40 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T08:13:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Knowledge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[audiobook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLimit -->
+        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="validateLimit" duration-ms="295" started-at="2023-07-16T08:13:41 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T08:13:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Friends]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tvShow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLimit -->
+        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="validateLimit" duration-ms="280" started-at="2023-07-16T08:13:41 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T08:13:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Java]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[software]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLimit -->
+        <test-method status="PASS" signature="validateLimit(java.lang.String,java.lang.String)[pri:0, instance:AppleSearchAPIAutomation@49993335]" name="validateLimit" duration-ms="300" started-at="2023-07-16T08:13:41 IST" description="Verify limit field is returning valid results count" data-provider="searchTermsAndMediaTypes" finished-at="2023-07-16T08:13:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLimit -->
+      </class> <!-- AppleSearchAPIAutomation -->
+    </test> <!-- Command line test -->
+  </suite> <!-- AppleSearchAPIAutomation -->
+</testng-results>

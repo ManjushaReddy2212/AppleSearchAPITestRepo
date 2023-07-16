@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jul 16 08:13:32 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>10 seconds (10017 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AppleSearchAPIAutomation.validateLimit()'><b>validateLimit</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify limit field is returning valid results count<br>Parameters: Java, software</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.testResponseForInvalidText()'><b>testResponseForInvalidText</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Validate invalid text search gives zero results</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.validateLimit()'><b>validateLimit</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify limit field is returning valid results count<br>Parameters: Shreya Goshal, music</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.testPricePointsAndCountryForAPI()'><b>testPricePointsAndCountryForAPI</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify valid currency is displayed for the respective country field<br>Parameters: CA, CAD, CAN</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.validateLimit()'><b>validateLimit</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify limit field is returning valid results count<br>Parameters: Baahubali, movie</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.testStatusCodesForApI()'><b>testStatusCodesForApI</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify various status codes</td>
+<td></td>
+<td>1</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.testPricePointsAndCountryForAPI()'><b>testPricePointsAndCountryForAPI</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify valid currency is displayed for the respective country field<br>Parameters: GB, GBP, GBR</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.testPricePointsAndCountryForAPI()'><b>testPricePointsAndCountryForAPI</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify valid currency is displayed for the respective country field<br>Parameters: JP, JPY, JPN</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.validateLimit()'><b>validateLimit</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify limit field is returning valid results count<br>Parameters: Taylor Swift, musicVideo</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.searchByTermAndMediaType()'><b>searchByTermAndMediaType</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify valid entity type is retured for the given media type && Validate key fields for the search results<br>Parameters: Taylor Swift, musicVideo</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.searchByTermAndMediaType()'><b>searchByTermAndMediaType</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify valid entity type is retured for the given media type && Validate key fields for the search results<br>Parameters: Podcast, podcast</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.searchByTermAndMediaType()'><b>searchByTermAndMediaType</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify valid entity type is retured for the given media type && Validate key fields for the search results<br>Parameters: Knowledge, audiobook</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.testPricePointsAndCountryForAPI()'><b>testPricePointsAndCountryForAPI</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify valid currency is displayed for the respective country field<br>Parameters: IN, INR, IND</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.validateLimit()'><b>validateLimit</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify limit field is returning valid results count<br>Parameters: Knowledge, audiobook</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.searchByTermAndMediaType()'><b>searchByTermAndMediaType</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify valid entity type is retured for the given media type && Validate key fields for the search results<br>Parameters: Business, ebook</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.validateLimit()'><b>validateLimit</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify limit field is returning valid results count<br>Parameters: Business, ebook</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.searchByTermAndMediaType()'><b>searchByTermAndMediaType</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify valid entity type is retured for the given media type && Validate key fields for the search results<br>Parameters: Friends, tvShow</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.searchByTermAndMediaType()'><b>searchByTermAndMediaType</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify valid entity type is retured for the given media type && Validate key fields for the search results<br>Parameters: Baahubali, movie</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.validateLimit()'><b>validateLimit</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify limit field is returning valid results count<br>Parameters: Friends, tvShow</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.testPricePointsAndCountryForAPI()'><b>testPricePointsAndCountryForAPI</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify valid currency is displayed for the respective country field<br>Parameters: US, USD, USA</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.searchByTermAndMediaType()'><b>searchByTermAndMediaType</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify valid entity type is retured for the given media type && Validate key fields for the search results<br>Parameters: Shreya Goshal, music</td>
+<td></td>
+<td>1</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.searchByTermAndMediaType()'><b>searchByTermAndMediaType</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify valid entity type is retured for the given media type && Validate key fields for the search results<br>Parameters: Java, software</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+<tr>
+<td title='AppleSearchAPIAutomation.validateLimit()'><b>validateLimit</b><br>Test class: AppleSearchAPIAutomation<br>Test method: Verify limit field is returning valid results count<br>Parameters: Podcast, podcast</td>
+<td></td>
+<td>0</td>
+<td>AppleSearchAPIAutomation@49993335</td></tr>
+</table><p>
+</body>
+</html>

@@ -5,9 +5,8 @@
     <classes>
       <class name="AppleSearchAPIAutomation">
         <methods>
-          <include name="testPricePointsAndCountryForAPI" invocation-numbers="0 1 2 3 4"/>
           <include name="setup"/>
-          <include name="searchByTermAndMediaType" invocation-numbers="0 1 2 3 4 5 6 7"/>
+          <include name="searchByTermAndMediaType" invocation-numbers="6"/>
         </methods>
       </class> <!-- AppleSearchAPIAutomation -->
     </classes>
